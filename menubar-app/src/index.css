@@ -1,0 +1,130 @@
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  max-width: 275px;
+  padding: 0rem;
+  text-align: center;
+}
+body{
+  padding-top:.5rem;
+}
+*{
+  box-sizing: border-box;
+}
+
+#wrap{
+  margin: 0 .5rem;
+}
+#wrap > fieldset{
+  width: 75px;
+  height: 50px;
+  display: inline-block;
+  margin: .125rem .25rem;
+  padding: .125rem .25rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-shadow: white 2px 2px inset, white 2px -2px inset, white -2px 2px inset, white -2px -2px inset;
+  margin-top: 15px;
+}
+#wrap > fieldset > legend{
+  padding:.125rem .25rem;
+  font-size: 1em;
+  font-weight:600;
+  margin:0;
+  background-color: white;
+  height: 2px;
+  line-height: 1px;
+  /* https://owumaro.github.io/text-stroke-generator/ */
+  text-shadow: rgb(255, 255, 255) 2px 0px 0px, rgb(255, 255, 255) 1.75517px 0.958851px 0px, rgb(255, 255, 255) 1.0806px 1.68294px 0px, rgb(255, 255, 255) 0.141474px 1.99499px 0px, rgb(255, 255, 255) -0.832294px 1.81859px 0px, rgb(255, 255, 255) -1.60229px 1.19694px 0px, rgb(255, 255, 255) -1.97998px 0.28224px 0px, rgb(255, 255, 255) -1.87291px -0.701566px 0px, rgb(255, 255, 255) -1.30729px -1.5136px 0px, rgb(255, 255, 255) -0.421592px -1.95506px 0px, rgb(255, 255, 255) 0.567324px -1.91785px 0px, rgb(255, 255, 255) 1.41734px -1.41108px 0px, rgb(255, 255, 255) 1.92034px -0.558831px 0px;
+}
+#wrap > fieldset.right > legend{
+  text-align: right;
+}
+#wrap > fieldset.under > legend{
+  text-align: center;
+}
+#wrap > fieldset.active{
+  color:white;
+}
+#wrap > fieldset.active > legend{
+  text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
+}
+
+#power input[type="checkbox"]{
+  -webkit-appearance: none;
+  width: 50px;
+  height: 25px;
+  vertical-align: middle;
+  border-radius: 25px;
+  background-color: red;
+}
+#power input[type="checkbox"]:checked{
+  background-color: green;
+}
+#power input[type="checkbox"]:after {
+    content: "";
+    width: 19px;
+    height: 19px;
+    background: white;
+    display: block;
+    border-radius: 10em;
+    margin-top: 3px;
+    margin-left: 28px;
+}
+#power input[type="checkbox"]:checked:after {
+    margin-left: 3px;
+}
+#power input[type="checkbox"],
+#power input[type="checkbox"]:after,
+#power input[type="checkbox"]:focus{
+  transition: all .3s;
+  outline: none;
+}
+
+.sync{
+  margin-top:.25em;
+}
+.sync label{
+    display: inline-block;
+    vertical-align: middle;
+}
+.sync input{
+  font-size:1.5em;
+  vertical-align: text-top;
+}
+/*.system > label{
+  display: block;
+  text-align: center;
+  font-size: 1.125em;
+  flex: 1;
+}
+.system > label > input{
+  display:none;
+}
+.system > label > span{
+  display:none;
+}
+*/
+/*.system > label > input:checked ~ .lon{
+  display:inline-block;
+}
+.system > label > input:not(:checked) ~ .loff{
+  display:inline-block;
+}
+*//*
+label{
+  font-size: .8em;
+  padding-bottom:.2em;
+  display:block;
+}
+input[type="range"]{
+  width: 100%;
+  margin-top: .25em;
+}
+input[type="color"]{
+  width: 100%;
+  margin-top: .25em;
+  padding:0;
+}
+
+*/

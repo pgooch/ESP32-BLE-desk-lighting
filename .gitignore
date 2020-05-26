@@ -1,0 +1,4 @@
+
+*.log
+.DS_Store
+menubar-app/package-lock.json
