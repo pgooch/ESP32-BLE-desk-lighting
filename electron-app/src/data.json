@@ -1,0 +1,30 @@
+{
+	"_name": "ESP32 BT Desk Lighting",
+	"System": {
+		"UUID": "4fafc201-1fb5-459e-8fcc-000000000000",
+		"characteristics": [
+			{"Power": "4fafc201-1fb5-459e-8fcc-000000000001"}
+		]
+	},
+	"Left Monitor Light": {
+		"UUID": "4fafc201-1fb5-459e-8fcc-000000000002",
+		"characteristics": [
+			{"Brightness": "4fafc201-1fb5-459e-8fcc-000000000003"},
+			{"Color": "4fafc201-1fb5-459e-8fcc-000000000004"}
+		]
+	},
+	"Right Monitor Light": {
+		"UUID": "4fafc201-1fb5-459e-8fcc-000000000005",
+		"characteristics": [
+			{"Brightness": "4fafc201-1fb5-459e-8fcc-000000000006"},
+			{"Color": "4fafc201-1fb5-459e-8fcc-000000000007"}
+		]
+	},
+	"Under Desk Light": {
+		"UUID": "4fafc201-1fb5-459e-8fcc-000000000008",
+		"characteristics": [
+			{"Brightness": "4fafc201-1fb5-459e-8fcc-000000000009"},
+			{"Color": "4fafc201-1fb5-459e-8fcc-00000000000a"}
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ESP32-BLE-desk-lighting",
+  "productName": "ESP32 BLE Desk Lighting Controller",
+  "version": "1.0.0",
+  "description": "The electron app that can control my ESP32 based BLE desk lighting.",
+  "author": "GitHub",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^9.0.0",
+    "electron-packager": "^14.2.1"
+  }
+}
