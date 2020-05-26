@@ -1,2 +1,0 @@
-[Mon May 11 18:58:41.623475 2020] [ssl:warn] [pid 59544] AH01909: ESP32-BLE-Desk-Lighting.livid.host:443:0 server certificate does NOT include an ID which matches the server name
-[Mon May 11 18:58:41.723169 2020] [ssl:warn] [pid 59544] AH01909: ESP32-BLE-Desk-Lighting.livid.host:443:0 server certificate does NOT include an ID which matches the server name
