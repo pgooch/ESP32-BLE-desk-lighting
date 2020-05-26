@@ -36,4 +36,4 @@ The case was made in fusion360 and can be printed in ant material, I used a nift
 ## Future features
 * I'm been thinking of getting a motorized sit/stand desk conversion, controlling height with this system would be pretty cool and should be doable from what I've read on the subject.
 * A passive IR sensor could potentially turn the LEDs on/off when you sit down or leave from your desk. I don't currently have a suitable one but an order has been placed.
-* Space was left on the PCB for a third monitor, however I can't run 3 4k60 displays on my machine without an external GPU and I don't really feel like taking on that cost for another screen I don't really need.
+* Space was left on the PCB for a third monitor, however I can't run 3 4k60 displays on my machine without an external GPU and I don't really feel like taking on that cost for another screen I don't really need..
